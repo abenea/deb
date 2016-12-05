@@ -1,0 +1,174 @@
+Package: kdevelop-l10n
+Architecture: all
+Version: 4:5.0.1-3
+Priority: optional
+Section: localization
+Source: kdevelop
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3608
+Depends: kdevplatform-l10n
+Breaks: kdevelop-l10n-ca, kdevelop-l10n-cavalencia, kdevelop-l10n-da, kdevelop-l10n-de, kdevelop-l10n-engb, kdevelop-l10n-es, kdevelop-l10n-et, kdevelop-l10n-fi, kdevelop-l10n-fr, kdevelop-l10n-gl, kdevelop-l10n-it, kdevelop-l10n-nds, kdevelop-l10n-nl, kdevelop-l10n-pt, kdevelop-l10n-ptbr, kdevelop-l10n-ru, kdevelop-l10n-sl, kdevelop-l10n-sv, kdevelop-l10n-th, kdevelop-l10n-tr, kdevelop-l10n-uk, kdevelop-l10n-zhcn, kdevelop-l10n-zhtw
+Replaces: kdevelop-l10n-ca, kdevelop-l10n-cavalencia, kdevelop-l10n-da, kdevelop-l10n-de, kdevelop-l10n-engb, kdevelop-l10n-es, kdevelop-l10n-et, kdevelop-l10n-fi, kdevelop-l10n-fr, kdevelop-l10n-gl, kdevelop-l10n-it, kdevelop-l10n-nds, kdevelop-l10n-nl, kdevelop-l10n-pt, kdevelop-l10n-ptbr, kdevelop-l10n-ru, kdevelop-l10n-sl, kdevelop-l10n-sv, kdevelop-l10n-th, kdevelop-l10n-tr, kdevelop-l10n-uk, kdevelop-l10n-zhcn, kdevelop-l10n-zhtw
+Filename: sid/kdevelop-l10n_5.0.1-3_all.deb
+Size: 459284
+MD5sum: 4129f31641c5808731a12d7200cef5d1
+SHA1: 938840c8a2376527dc37526819b09d76dedc72e3
+SHA256: 85d14235fb2b8087674638a19ab8fed103fb8e7f478ea11a6dbabe1b69406c82
+SHA512: 203546d834644939eccffe4aeebedd58c452f89dc664c3bbd5a50b1b1e16b0dabad31b829bd9ef48a9d3909f1b19f87c88fd81eac48ef3549a790744f807579b
+Homepage: http://www.kdevelop.org/
+Description: localization files for the KDevelop IDE
+ KDevelop is an easy to use integrated development environment for KDE.
+ It supports a wide range of programming languages and features project
+ management, an advanced editor, a class browser and an integrated debugger.
+ .
+ This package contains the translations for KDevelop.
+
+Package: plasma-kdevelop-dbgsym
+Architecture: amd64
+Version: 4:5.0.1-3
+Priority: extra
+Section: debug
+Source: kdevelop
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 660
+Depends: plasma-kdevelop (= 4:5.0.1-3)
+Breaks: kdevelop-dbg (<< 4:4.7.3-3~)
+Replaces: kdevelop-dbg (<< 4:4.7.3-3~)
+Filename: sid/plasma-kdevelop-dbgsym_5.0.1-3_amd64.deb
+Size: 634392
+MD5sum: 866e69c88f3ee64deefbdbe2da279bac
+SHA1: f5afeb238c72f32a0d2f4a77418c2cff3e821d7d
+SHA256: 0b76ee4860eb61c55ac01f15724f0a857fe5435c192c923c5580fae0b6f5c7fd
+SHA512: 57f8303cf72ab4705fb757eac2daa8a8e3349da2cddf91d9bd4d817b553a907d3a5e9a0e134d9750e1600e569dd530cfd5d6602af839f83a0a002d51ea4c09c6
+Homepage: http://www.kdevelop.org/
+Description: Debug symbols for plasma-kdevelop
+Auto-Built-Package: debug-symbols
+Build-Ids: 44a20e3e288060db9453d7ead96e423e80d9a11f 87502f328a130f327d6761d3ebc83dde47090076
+
+Package: kdevelop-dev
+Architecture: amd64
+Version: 4:5.0.1-3
+Priority: optional
+Section: libdevel
+Source: kdevelop
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 94
+Depends: kdevelop (= 4:5.0.1-3), kdevplatform-dev (>= 5.0.1)
+Filename: sid/kdevelop-dev_5.0.1-3_amd64.deb
+Size: 27028
+MD5sum: 3f58099705086fe79d8c625aea96b033
+SHA1: 618c674c5e7b9e1ebd22ce4ede73d66a6aa97f12
+SHA256: bbdf322e7fd0afee8df8dc84f5b26d8cb076874a1153159aa3c5dfd4271c3dda
+SHA512: 1d68d599bb767fbcd9789782dc69fca7a2c67c946679d233442163cc7426a324e15fd676b7ca7f6005d6b735645ab389f54a593c2cff80485af9bb1fd889aeba
+Homepage: http://www.kdevelop.org/
+Description: development files for the KDevelop IDE
+ KDevelop is an easy to use integrated development environment for KDE.
+ It supports a wide range of programming languages and features project
+ management, an advanced editor, a class browser and an integrated debugger.
+ .
+ The application wizard can generate fully functional projects
+ for terminal programs and GUI programs using Qt, KDE or GNOME.
+ .
+ This package contains development files for KDevelop.
+
+Package: kdevelop-dbgsym
+Architecture: amd64
+Version: 4:5.0.1-3
+Priority: extra
+Section: debug
+Source: kdevelop
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 44638
+Depends: kdevelop (= 4:5.0.1-3)
+Breaks: kdevelop-dbg (<< 4:4.7.3-3~)
+Replaces: kdevelop-dbg (<< 4:4.7.3-3~)
+Filename: sid/kdevelop-dbgsym_5.0.1-3_amd64.deb
+Size: 43722798
+MD5sum: 771d4eef7622e6318e6d83cc91d2501b
+SHA1: 6ee12816918a64203c5075555f6fd90c99c1fa8a
+SHA256: e6faca5267e522a77aace50a455e4efc8dc948b0ca219246c92c7a86d1971f9d
+SHA512: 96847f3ba99acfa6e0621ff37b79e90a92dd98b4d18da6375a431645d71532f2fed07a2e02b883ce40670cc9425fe67acaa2799b2290c8eac31d709c74d3a6b2
+Homepage: http://www.kdevelop.org/
+Description: Debug symbols for kdevelop
+Auto-Built-Package: debug-symbols
+Build-Ids: 027b16d177e021eb93e53bc60359218bbd49b33e 02f59eab1101c1759424e5b4a893318628a1f6e7 0e11d3ed6c60ea1d0c61bc4050f34045c6bdbb09 0f987203369378d090848e40c69ccdcd84150ef7 12a217c8be3186884ee4ff153f89903b6e576b5f 271dfd6575cf9bbccc4546b817658ab20eceb005 365522484231efff6bf0d2eb0d8bf9e1359f1f68 3f491d2e993b5894455a52d2680058b2fc839b97 4bf8ae79e6010dd69e90659c20453f001d3f93ed 4e6b6ba67879e14e6abf0cf379de5bc71281621f 66c650c056ae686b4a242abca0b1de10ddc2501f 76d550537f5ebc779ae69709657bfa08bf18b523 77c3cb340851ace344adb0cb518e95e95f450ab6 798f27ed08f86236a55025a06be2202537929e7c 984dd345fcef4e860cee46af988cce543cb4c2ae 9effadef266337361c523334f46e4870cfde7cfa b32da89681026f50b25d23f0955ec4a55653c772 b536b4dc9f26b20ef0c31f26be13c63cc9d03401 c8965af3b52f9432cf18c66fe8570068995da7e0 cb6c3be60d127d6602af96ee30fbfd5804cc1b2c ccfef489fd862751de942509b548b7ff8ab414b9 cf123dcbdb3f2c0fd1c5e2c2984c3cb1f9c9e04a cfde46db583b9c5ce431a34788b7187aef39f3bc d1978ca81bd973162a2866835057ff32926c9ff2 e5d6b0307493941cf9a980e145f243db554ff862 fde786eca9429b70a338bb7324308efaa9ed5f79
+
+Package: plasma-kdevelop
+Architecture: amd64
+Version: 4:5.0.1-3
+Priority: optional
+Section: devel
+Source: kdevelop
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 175
+Depends: kdevelop (= 4:5.0.1-3), libc6 (>= 2.14), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.99.0), libkf5i18n5 (>= 4.97.0), libkf5plasma5 (>= 4.96.0), libkf5runner5 (>= 5.0.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.4.0), libstdc++6 (>= 4.1.1)
+Filename: sid/plasma-kdevelop_5.0.1-3_amd64.deb
+Size: 46294
+MD5sum: fc1883add83d7fc856be0a1672f85e3e
+SHA1: b13744bcda9fc88bffddd932b2c6288f5909b086
+SHA256: 48bcd64de595a1c02f280d04a1d6ccfd1c2634912af8632be7e6afe9eea03698
+SHA512: 105f470f077a712b6464080453384867e0c9c95baaa6f23784a62f9f86df1288e1945a407bdc1349184f4b8dda836fa3b3340ab667b657efe157061aca966c34
+Homepage: http://www.kdevelop.org/
+Description: KDevelop plugins for Plasma
+ KDevelop is an easy to use integrated development environment for KDE.
+ It supports a wide range of programming languages and features project
+ management, an advanced editor, a class browser and an integrated debugger.
+ .
+ This package contains the KDevelop plugins for integrating in the Plasma
+ desktop environment:
+  * sessions data engine
+  * sessions widget
+  * sessions KRunner module
+
+Package: kdevelop
+Architecture: amd64
+Version: 4:5.0.1-3
+Priority: optional
+Section: devel
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 7181
+Depends: kdevelop-data (>= 4:5.0.1-3), kdevplatform10-libs (>= 5.0.1), kio, libc6 (>= 2.14), libclang1-3.8 (>= 3.8), libgcc1 (>= 1:3.0), libkasten3controllers3 (>= 4:14.12.0), libkasten3core3 (>= 4:14.12.0), libkasten3okteta1controllers1 (>= 4:14.12.0), libkasten3okteta1core1 (>= 4:14.12.0), libkasten3okteta1gui1 (>= 4:14.12.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.98.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 5.16.0), libkf5crash5 (>= 5.15.0), libkf5declarative5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5itemviews5 (>= 4.96.0), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5newstuff5 (>= 4.95.0), libkf5parts5 (>= 4.96.0), libkf5texteditor5, libkf5threadweaver5 (>= 4.98.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.96.0), libprocesscore7 (>= 4:5.3.0), libprocessui7 (>= 5.2.50+git), libqt5core5a (>= 5.6.0~beta), libqt5dbus5 (>= 5.4.0), libqt5gui5 (>= 5.4.0), libqt5help5 (>= 5.6.0~beta), libqt5network5 (>= 5.4.0), libqt5quickwidgets5 (>= 5.3.0), libqt5webkit5 (>= 5.6.0~rc), libqt5widgets5 (>= 5.4.0), libqt5xml5 (>= 5.4.0), libstdc++6 (>= 5.2)
+Recommends: g++, gcc, gdb (>= 7.0), kapptemplate, make, kio-extras
+Suggests: cmake, kdevelop-l10n, ninja-build
+Filename: sid/kdevelop_5.0.1-3_amd64.deb
+Size: 1618554
+MD5sum: 62815ed5f2a89902acd98957b81ad40d
+SHA1: 97c38b473dca75fd4c368d8519c06a613c880fab
+SHA256: d263fd54df8628059dfd9f9dc7a60efd0bd5ba362f87295682c72684befc94cb
+SHA512: 81f7b1f239d85186263e7cdcfba3fb85d03b0c39f647ac953528023f73d25f5064264efaf2db23eee826d54ca4461b304aca2c4851bb7cda9bcb1976b1be7b0f
+Homepage: http://www.kdevelop.org/
+Description: integrated development environment for KDE
+ KDevelop is an easy to use integrated development environment for KDE.
+ It supports a wide range of programming languages and features project
+ management, an advanced editor, a class browser and an integrated debugger.
+ .
+ The application wizard can generate fully functional projects
+ for terminal programs and GUI programs using Qt, KDE or GNOME.
+
+Package: kdevelop-data
+Architecture: all
+Version: 4:5.0.1-3
+Priority: optional
+Section: devel
+Source: kdevelop
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 4187
+Breaks: kdevelop-doc (<< 4:4.3)
+Replaces: kdevelop-doc (<< 4:4.3)
+Filename: sid/kdevelop-data_5.0.1-3_all.deb
+Size: 3415636
+MD5sum: b878f2d28808c4d2da68ec84714c5f5f
+SHA1: 0bf9caa737a6f2696617a1e95372e83afea2e752
+SHA256: 8d37fc64204183e4431255963c278680393865482d4e1abb347b0f961dd665fc
+SHA512: bc896a1e99e29b6c32f50eb7b614eeb512f6917ad7c48dcc2b622e6605e50567f48228d218a6ff8800e06284784f1b9abf5e3ab6734bb9b7173f478794938621
+Homepage: http://www.kdevelop.org/
+Description: data files for the KDevelop IDE
+ KDevelop is an easy to use integrated development environment for KDE.
+ It supports a wide range of programming languages and features project
+ management, an advanced editor, a class browser and an integrated debugger.
+ .
+ The application wizard can generate fully functional projects
+ for terminal programs and GUI programs using Qt, KDE or GNOME.
+ .
+ This package contains arch independent data for KDevelop.
+
