@@ -2,11 +2,11 @@ Package: kdevelop
 Format: 3.0 (quilt)
 Binary: kdevelop, kdevelop-data, kdevelop-dev, kdevelop-l10n, plasma-kdevelop
 Architecture: any all
-Version: 4:5.0.1-3
+Version: 4:5.0.3-1
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Jeremy Lainé <jeremy.laine@m4x.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>, Andreas Cord-Landwehr <cola@uni-paderborn.de>
 Standards-Version: 3.9.8
-Build-Depends: cmake (>= 2.8.12), debhelper (>= 9), extra-cmake-modules (>= 0.0.9), qtbase5-dev (>= 5.4.0), qtdeclarative5-dev (>= 5.4.0), qttools5-dev, qttools5-dev-tools, libqt5webkit5-dev (>= 5.4.0), libkf5config-dev (>= 5.15.0), libkf5crash-dev (>= 5.15.0), libkf5declarative-dev (>= 5.15.0), libkf5doctools-dev (>= 5.15.0), libkf5iconthemes-dev (>= 5.15.0), libkf5i18n-dev (>= 5.15.0), libkf5itemmodels-dev (>= 5.15.0), libkf5itemviews-dev (>= 5.15.0), libkf5jobwidgets-dev (>= 5.15.0), libkf5kcmutils-dev (>= 5.15.0), libkf5kio-dev (>= 5.15.0), libkf5newstuff-dev (>= 5.15.0), libkf5notifyconfig-dev (>= 5.15.0), libkf5parts-dev (>= 5.15.0), libkf5service-dev (>= 5.15.0), libkf5texteditor-dev (>= 5.15.0), libkf5threadweaver-dev (>= 5.15.0), libkf5windowsystem-dev (>= 5.15.0), libkf5xmlgui-dev (>= 5.15.0), kdevelop-pg-qt (>= 2.0), kdevplatform-dev (>= 5.0.1), okteta-dev (>= 4:16.08.0-1~), libkf5sysguard-dev, libkf5plasma-dev [linux-any], libkf5runner-dev [linux-any], pkg-config, pkg-kde-tools (>= 0.15.16), shared-mime-info, llvm-3.8-dev (>= 1:3.8.1), libclang-3.8-dev (>= 1:3.8.1)
+Build-Depends: cmake (>= 2.8.12), debhelper (>= 9), extra-cmake-modules (>= 0.0.9), qtbase5-dev (>= 5.4.0), qtdeclarative5-dev (>= 5.4.0), qttools5-dev, qttools5-dev-tools, libqt5webkit5-dev (>= 5.4.0), libkf5config-dev (>= 5.15.0), libkf5crash-dev (>= 5.15.0), libkf5declarative-dev (>= 5.15.0), libkf5doctools-dev (>= 5.15.0), libkf5iconthemes-dev (>= 5.15.0), libkf5i18n-dev (>= 5.15.0), libkf5itemmodels-dev (>= 5.15.0), libkf5itemviews-dev (>= 5.15.0), libkf5jobwidgets-dev (>= 5.15.0), libkf5kcmutils-dev (>= 5.15.0), libkf5kio-dev (>= 5.15.0), libkf5newstuff-dev (>= 5.15.0), libkf5notifyconfig-dev (>= 5.15.0), libkf5parts-dev (>= 5.15.0), libkf5service-dev (>= 5.15.0), libkf5texteditor-dev (>= 5.15.0), libkf5threadweaver-dev (>= 5.15.0), libkf5windowsystem-dev (>= 5.15.0), libkf5xmlgui-dev (>= 5.15.0), kdevelop-pg-qt (>= 2.0), kdevplatform-dev (>= 5.0.3), okteta-dev (>= 4:16.08.0-1~), libkf5sysguard-dev, libkf5plasma-dev [linux-any], libkf5runner-dev [linux-any], pkg-config, pkg-kde-tools (>= 0.15.16), shared-mime-info, llvm-3.9-dev, libclang-3.9-dev
 Homepage: http://www.kdevelop.org/
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/kde-std/kdevelop.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-std/kdevelop.git
@@ -18,19 +18,19 @@ Package-List:
  kdevelop-l10n deb localization optional arch=all
  plasma-kdevelop deb devel optional arch=linux-any
 Files:
- a9d720e0037605f5f41d8676a7b85cb5 2484 kdevelop_5.0.1-3.dsc
- f7028cb03302ed5e67331319d656003c 4995176 kdevelop_5.0.1.orig.tar.xz
- 788f27714829314638acb299bfc89b05 25388 kdevelop_5.0.1-3.debian.tar.xz
+ 0de5f97a5c553a0181c988f78a693db5 2458 kdevelop_5.0.3-1.dsc
+ aed227a6bfe326101e13c29f9d58bbc1 5004500 kdevelop_5.0.3.orig.tar.xz
+ 1738f57674e596de40b144133fb4bf3d 25436 kdevelop_5.0.3-1.debian.tar.xz
 Checksums-Sha1:
- 6b521df2d4d3b784b3afe8e9c2a805d434cb1932 2484 kdevelop_5.0.1-3.dsc
- 8ee5a8668f4eea303a86b482e3c97ae069a51e2d 4995176 kdevelop_5.0.1.orig.tar.xz
- 22aabfc5a7d219e5d15a3cd5f19813bf8be75b72 25388 kdevelop_5.0.1-3.debian.tar.xz
+ 3aea54db06bca0a53838d593eb3421f0f6d39202 2458 kdevelop_5.0.3-1.dsc
+ c642fe91620840c0de655b5a5aebff6bdf4b4912 5004500 kdevelop_5.0.3.orig.tar.xz
+ 8436206caae52554958f9b3c7a9b797fe230c57c 25436 kdevelop_5.0.3-1.debian.tar.xz
 Checksums-Sha256:
- e16a8a34044b12d9c42845f3d5d91fe11b14091641292ab78f4664968c45039e 2484 kdevelop_5.0.1-3.dsc
- f8ef3bbd31d1f05627a554e0092b16faba3e332dd21f4e83db20f3789cea3465 4995176 kdevelop_5.0.1.orig.tar.xz
- 68bc97970a9ff809b533d87e6d9208e996513620cb18e1c1d49fd70b25f972fa 25388 kdevelop_5.0.1-3.debian.tar.xz
+ 858d23f337cf435e3901b3d96bfd3407cbf5d6bcd55e6b2a0ddd0104903a3252 2458 kdevelop_5.0.3-1.dsc
+ 17a58dfc38b853c6c5987084e8973b4f7f5015a6c2c20f94c2a9f96b0c13f601 5004500 kdevelop_5.0.3.orig.tar.xz
+ ea2aa4ad6bc0df2a5c7b7ea2771d2adacd2a55e83e757aa27b7e06f46f88e1d7 25436 kdevelop_5.0.3-1.debian.tar.xz
 Checksums-Sha512:
- 1ab3b0e71844b4dda70437e6fc20822f39ddd9a02efb606e0ffc93d65a7de2eedb13906f4284e9dacca3909c8b77c908da61e5218ca014f450a4643280634afe 2484 kdevelop_5.0.1-3.dsc
- c83785c20cf4555abebcb4da7e64d6162eb5bdbe8e370de1a1129a06d8d68fef863c97140d6f6333b297fed71578c84d308d0f53d44545e7abbb982898dd7b0b 4995176 kdevelop_5.0.1.orig.tar.xz
- bbeade91ba04743558df3e1a6602460670b62e7898ba86cf72ec7489f268e9f3b963eb7e0e7336db460d0bf1b9afc8126ad5fd354ca2f8600dcd1fdb9836cef7 25388 kdevelop_5.0.1-3.debian.tar.xz
+ 1a1739a69225452e9240c5f44ed268a692dce07c5479bf8a595a480c144b814ae8cfea9bbaee5106b637ead5f88f4cf7e585cd1a2b4f4f5bba359927f39af4d1 2458 kdevelop_5.0.3-1.dsc
+ 5fa799412c5a847bdefeca3f339c3b17b7693761209f646b6aee35734abded234d871ec9763079db7a4236047d68b3ab9a89ac22a0abb8b7a23d4c67cf749444 5004500 kdevelop_5.0.3.orig.tar.xz
+ 73f7a18daf82b93c2149f716926d163033e3d6e911d11b29aacd866039004ab8196794df950fc3d34b735c7f3d5fd66aa1f7f032f655b51aab1f5f62707652e8 25436 kdevelop_5.0.3-1.debian.tar.xz
 

@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Sat, 07 Jan 2017 16:23:12 -0300
+Source: kdevelop
+Binary: kdevelop kdevelop-data kdevelop-dev kdevelop-l10n plasma-kdevelop
+Architecture: source all amd64
+Version: 4:5.0.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Changed-By: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Description:
+ kdevelop   - integrated development environment for KDE
+ kdevelop-data - data files for the KDevelop IDE
+ kdevelop-dev - development files for the KDevelop IDE
+ kdevelop-l10n - localization files for the KDevelop IDE
+ plasma-kdevelop - KDevelop plugins for Plasma
+Changes:
+ kdevelop (4:5.0.3-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream release.
+     - Bump kdevplatform-dev build-dependency version.
+Checksums-Sha1:
+ 3aea54db06bca0a53838d593eb3421f0f6d39202 2458 kdevelop_5.0.3-1.dsc
+ c642fe91620840c0de655b5a5aebff6bdf4b4912 5004500 kdevelop_5.0.3.orig.tar.xz
+ 8436206caae52554958f9b3c7a9b797fe230c57c 25436 kdevelop_5.0.3-1.debian.tar.xz
+ 6e802192535727b119090ec4b532acd9f99d4d96 3415426 kdevelop-data_5.0.3-1_all.deb
+ bb21ad92234cffcd7e69e766cd93deac2974b0b5 44719070 kdevelop-dbgsym_5.0.3-1_amd64.deb
+ 86cd6684aa1f288a58fd293118986c8b8c6b2da2 27140 kdevelop-dev_5.0.3-1_amd64.deb
+ df9a0ef08f6e1e8ae231fcc39a06bea8019cb60f 459602 kdevelop-l10n_5.0.3-1_all.deb
+ 7e81e80a204dfa3f384210ebbee2be4f2c37b7ff 22679 kdevelop_5.0.3-1_amd64.buildinfo
+ f26a889cc6a2dd714df8e7b01fe28689a8ac9a0a 1526194 kdevelop_5.0.3-1_amd64.deb
+ afcbba9edf8ddb22c823bd310c79258df7c3b565 640830 plasma-kdevelop-dbgsym_5.0.3-1_amd64.deb
+ 1ceaf026a233840d2ae9194e37a7d7f89fd93ab2 46188 plasma-kdevelop_5.0.3-1_amd64.deb
+Checksums-Sha256:
+ 858d23f337cf435e3901b3d96bfd3407cbf5d6bcd55e6b2a0ddd0104903a3252 2458 kdevelop_5.0.3-1.dsc
+ 17a58dfc38b853c6c5987084e8973b4f7f5015a6c2c20f94c2a9f96b0c13f601 5004500 kdevelop_5.0.3.orig.tar.xz
+ ea2aa4ad6bc0df2a5c7b7ea2771d2adacd2a55e83e757aa27b7e06f46f88e1d7 25436 kdevelop_5.0.3-1.debian.tar.xz
+ ce5b5afa8a95b02ac58ac34ee8e5813b474644da2b9d879238e7fab97fe7905c 3415426 kdevelop-data_5.0.3-1_all.deb
+ 6a78c60f968f47ffa00de87f9e3b6d25cdc53f5d92734df68c6d6893a8fae10c 44719070 kdevelop-dbgsym_5.0.3-1_amd64.deb
+ c75f5a543fc61ec41cfcaab3eaca18c1e0a431afaf3d3c8cc7c25984350e59a1 27140 kdevelop-dev_5.0.3-1_amd64.deb
+ 814ceb921745f5e7b1b9ecdd9ad9764771234b003f281f6d421f2017c917f164 459602 kdevelop-l10n_5.0.3-1_all.deb
+ c2904d2bc4f7faf4196d3d5e1c751836ab0b09479b2bc1a93a88d3b9192a221f 22679 kdevelop_5.0.3-1_amd64.buildinfo
+ a5a88538e13c79c62564dbd6399b212060bd4a30fc02a21df4f70ae3d130f3b5 1526194 kdevelop_5.0.3-1_amd64.deb
+ 8488e93d9850bad8ce0877dd8d83bb444341b881586ce6868915515901c4140f 640830 plasma-kdevelop-dbgsym_5.0.3-1_amd64.deb
+ 754ac10bdd31c8e9fee0d92b248e540f5a16ae4a76c0a8a82fbc008683110064 46188 plasma-kdevelop_5.0.3-1_amd64.deb
+Files:
+ 0de5f97a5c553a0181c988f78a693db5 2458 devel optional kdevelop_5.0.3-1.dsc
+ aed227a6bfe326101e13c29f9d58bbc1 5004500 devel optional kdevelop_5.0.3.orig.tar.xz
+ 1738f57674e596de40b144133fb4bf3d 25436 devel optional kdevelop_5.0.3-1.debian.tar.xz
+ ca88642042e7edaacba21e6845b4cf79 3415426 devel optional kdevelop-data_5.0.3-1_all.deb
+ 6ae2cf67973ad9f49380603530a21c08 44719070 debug extra kdevelop-dbgsym_5.0.3-1_amd64.deb
+ 3e115f7b3de5bb6ce1d6aa80fbb444d4 27140 libdevel optional kdevelop-dev_5.0.3-1_amd64.deb
+ 16ac165eab2a540da8b5682ac4dbb98e 459602 localization optional kdevelop-l10n_5.0.3-1_all.deb
+ a01aae957429d4c0e4c54939ffb3effd 22679 devel optional kdevelop_5.0.3-1_amd64.buildinfo
+ f5f4ddfe35a648984dd79583cbae8026 1526194 devel optional kdevelop_5.0.3-1_amd64.deb
+ 6c5ecfc9abe4799983485e239bb50a25 640830 debug extra plasma-kdevelop-dbgsym_5.0.3-1_amd64.deb
+ 9facff10eb6903c89a5484996ded21ab 46188 devel optional plasma-kdevelop_5.0.3-1_amd64.deb
